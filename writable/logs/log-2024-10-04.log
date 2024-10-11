@@ -1,0 +1,316 @@
+CRITICAL - 2024-10-04 02:10:29 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 47.
+ 1 APPPATH\Views\drawing.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:12:10 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 47.
+ 1 APPPATH\Views\drawing.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:12:39 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 47.
+ 1 APPPATH\Views\drawing.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:12:48 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 47.
+ 1 APPPATH\Views\drawing.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:13:21 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 47.
+ 1 APPPATH\Views\drawing.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:13:51 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 47.
+ 1 APPPATH\Views\drawing.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:14:00 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 47.
+ 1 APPPATH\Views\drawing.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 47)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:14:53 --> ErrorException: Undefined variable $list_drawings
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 APPPATH\Views\drawing.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_drawings', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:15:03 --> ErrorException: Undefined variable $list_drawings
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 APPPATH\Views\drawing.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_drawings', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:15:28 --> ErrorException: Undefined variable $list_drawings
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 APPPATH\Views\drawing.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_drawings', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:15:44 --> ErrorException: Undefined variable $list_drawings
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 APPPATH\Views\drawing.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_drawings', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:16:34 --> ErrorException: Undefined variable $list_drawings
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 APPPATH\Views\drawing.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_drawings', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:16:35 --> ErrorException: Undefined variable $list_drawings
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 APPPATH\Views\drawing.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_drawings', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:17:14 --> ErrorException: Undefined variable $list_drawings
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 APPPATH\Views\drawing.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_drawings', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:17:22 --> ErrorException: Undefined variable $list_drawings
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 APPPATH\Views\drawing.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_drawings', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:17:36 --> ErrorException: Undefined variable $list_drawings
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 APPPATH\Views\drawing.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_drawings', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:17:57 --> ErrorException: Undefined variable $list_drawings
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 APPPATH\Views\drawing.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_drawings', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:18:17 --> ErrorException: Undefined variable $list_drawings
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 APPPATH\Views\drawing.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_drawings', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 235)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:19:57 --> ErrorException: Undefined variable $status
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 236.
+ 1 APPPATH\Views\drawing.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $status', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 236)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:20:54 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 3 APPPATH\Controllers\Home.php(24): view('drawing')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:21:39 --> ParseError: syntax error, unexpected token "case"
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 236.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 3 APPPATH\Controllers\Home.php(24): view('drawing')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:21:46 --> ParseError: syntax error, unexpected token ")"
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 235.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 3 APPPATH\Controllers\Home.php(24): view('drawing')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-04 02:22:15 --> ErrorException: Undefined variable $statusText
+[Method: GET, Route: drawing]
+in APPPATH\Views\drawing.php on line 236.
+ 1 APPPATH\Views\drawing.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $statusText', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php', 236)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\drawing.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('drawing', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('drawing')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->drawing()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

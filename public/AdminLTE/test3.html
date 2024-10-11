@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Dinamis</title>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .gallery-item {
+            width: 100%;
+            padding-top: 100%; /* 1:1 Aspect Ratio */
+            position: relative;
+        }
+        .gallery-item img, .gallery-item video, .gallery-item .file {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .gallery-item .file {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+            font-size: 1.2em;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form id="galleryForm">
+        <label for="type">Tipe Konten:</label>
+        <select id="type" name="type">
+            <option value="image">Gambar</option>
+            <option value="video">Video</option>
+            <option value="file">File</option>
+        </select>
+        <br>
+        <label for="src">URL Sumber:</label>
+        <input type="text" id="src" name="src" required>
+        <br>
+        <label for="alt">Alt/Nama:</label>
+        <input type="text" id="alt" name="alt" required>
+        <br>
+        <button type="submit">Tambahkan ke Galeri</button>
+    </form>
+
+    <div class="gallery" id="gallery"></div>
+
+    <script>
+        const galleryData = [
+            { type: 'image', src: 'https://th.bing.com/th/id/OIG2.2zoB9DWNd4750Z7BChnW?pid=ImgGn', alt: 'Contoh Gambar' },
+            { type: 'video', src: 'https://www.w3schools.com/html/mov_bbb.mp4' },
+            { type: 'image', src: 'https://th.bing.com/th/id/OIG2.2zoB9DWNd4750Z7BChnW?pid=ImgGn', alt: 'Contoh Gambar 2' },
+            { type: 'file', name: 'Contoh File', link: 'https://repository.uir.ac.id/10198/1/165110616.pdf' },
+        ];
+
+        const gallery = document.getElementById('gallery');
+
+        function renderGallery() {
+            gallery.innerHTML = '';
+            galleryData.forEach(item => {
+                const galleryItem = document.createElement('div');
+                galleryItem.classList.add('gallery-item');
+
+                if (item.type === 'image') {
+                    const img = document.createElement('img');
+                    img.src = item.src;
+                    img.alt = item.alt;
+                    galleryItem.appendChild(img);
+                } else if (item.type === 'video') {
+                    const video = document.createElement('video');
+                    video.src = item.src;
+                    video.controls = true;
+                    galleryItem.appendChild(video);
+                } else if (item.type === 'file') {
+                    const fileDiv = document.createElement('div');
+                    fileDiv.classList.add('file');
+                    const fileLink = document.createElement('a');
+                    fileLink.href = item.link;
+                    fileLink.textContent = item.name;
+                    fileLink.target = '_blank'; // Membuka file di tab baru
+                    fileDiv.appendChild(fileLink);
+                    galleryItem.appendChild(fileDiv);
+                }
+
+                gallery.appendChild(galleryItem);
+            });
+        }
+
+        document.getElementById('galleryForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const type = document.getElementById('type').value;
+            const src = document.getElementById('src').value;
+            const alt = document.getElementById('alt').value;
+
+            const newItem = { type, src, alt };
+            if (type === 'file') {
+                newItem.name = alt;
+                newItem.link = src;
+            }
+
+            galleryData.push(newItem);
+            renderGallery();
+        });
+
+        renderGallery();
+    </script>
+</body>
+</html>

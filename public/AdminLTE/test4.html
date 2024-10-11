@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Gallery</title>
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery-item {
+            margin: 10px;
+            cursor: pointer;
+        }
+        iframe {
+            width: 600px;
+            height: 400px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dynamic Gallery Example</h1>
+    <div class="gallery" id="gallery"></div>
+    <iframe id="dynamicIframe"></iframe>
+
+    <script>
+        const contentList = [
+            { type: 'image', url: 'https://example.com/image.jpg' },
+            { type: 'video', url: 'https://example.com/video.mp4' },
+            { type: 'file', url: 'https://example.com/file.pdf' }
+        ];
+
+        const gallery = document.getElementById('gallery');
+        const iframe = document.getElementById('dynamicIframe');
+
+        contentList.forEach(content => {
+            const item = document.createElement('div');
+            item.className = 'gallery-item';
+            item.textContent = content.type;
+            item.onclick = () => {
+                iframe.src = content.url;
+            };
+            gallery.appendChild(item);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.highlight {
+  background-color: yellow;
+}
+
+/* Halaman PO dan DO Detail */
+.header-2 {
+  display: none;
+}
+
+.footer-2 {
+  display: none;
+}
+@media (max-width: 386px) {
+    .header-1 {
+      display: none;
+    }
+    .header-2 {
+      display: block;
+    }
+
+    .footer-1 {
+      display: none;
+    }
+    .footer-2 {
+      display: block;
+    }
+}
+
+/* Halaman BPB Stock */
+.footerrapdetail-2 {
+  display: none;
+}
+@media (max-width: 401px) {
+  .footerrapdetail-1 {
+    display: none;
+  }
+  .footerrapdetail-2 {
+    display: block;
+  }
+}
+
+/* Halaman Group Material Stock */
+@media (max-width: 426px) {
+    .tambah-groupmaterial {
+        width: 100%;
+    }
+}
