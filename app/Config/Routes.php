@@ -91,5 +91,6 @@ $routes->get('/laporan-pemakaian-seng', 'Home::laporan_pemakaian_seng');
 
 
 $routes->get('/bpak-edit', 'Home::bpak_edit');
+$routes->get('/bpas-edit', 'Home::bpas_edit');
 
 

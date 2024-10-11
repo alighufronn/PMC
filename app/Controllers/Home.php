@@ -249,5 +249,9 @@ class Home extends BaseController
     {
         return view('bpak_edit');
     }
+    public function bpas_edit(): string
+    {
+        return view('bpas_edit');
+    }
     
 }

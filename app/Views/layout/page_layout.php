@@ -621,6 +621,13 @@
             </a>
           </li>
 
+          <li class="nav-item">
+            <a href="<?= base_url('bpas-edit') ?>" class="nav-link">
+              <i class="nav-icon fas fa-circle"></i>
+              <p>BPAS (Edit)</p>
+            </a>
+          </li>
+
         </ul>
       </nav>
     </div>
