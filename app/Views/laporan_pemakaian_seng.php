@@ -35,7 +35,7 @@ Laporan Seng
             <div class="card">
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="form-group">
                                 <label for="" class="text-sm">#No Coil</label>
                                 <select name="" id="" class="form-control select">
@@ -43,34 +43,34 @@ Laporan Seng
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-md-9 col-sm-6">
                             <div class="form-group">
                                 <label for="" class="text-sm">Nama Material</label>
                                 <input type="text" name="" id="" class="form-control" value="">
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <div class="form-group">
                                 <label for="" class="text-sm">BBM M'</label>
-                                <input type="text" name="" id="" class="form-control" value="">
+                                <input type="text" name="" id="" class="form-control text-right" value="">
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <div class="form-group">
                                 <label for="" class="text-sm">BBM Kg</label>
-                                <input type="text" name="" id="" class="form-control" value="">
+                                <input type="text" name="" id="" class="form-control text-right" value="">
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <div class="form-group">
                                 <label for="" class="text-sm">Stock M'</label>
-                                <input type="text" name="" id="" class="form-control" value="">
+                                <input type="text" name="" id="" class="form-control text-right" value="">
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <div class="form-group">
                                 <label for="" class="text-sm">Stock Kg</label>
-                                <input type="text" name="" id="" class="form-control" value="">
+                                <input type="text" name="" id="" class="form-control text-right" value="">
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ Laporan Seng
                                 <input type="text" name="" id="" class="form-control form-control-sm text-right" value="00191" style="min-width: 60px;">
                             </td>
                             <td>
-                                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-danger"><i class="fas fa-times"></i></a>
+                                <a href="#" rel="noopener noreferrer" class="btn btn-sm btn-danger"><i class="fas fa-times"></i></a>
                             </td>
                         </tr>
                     </tbody>

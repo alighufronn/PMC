@@ -246,7 +246,7 @@ PO Detail
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- <tr>
+                        <tr>
                             <td>1</td>
                             <td>
                                 <div class="form-group">
@@ -279,7 +279,7 @@ PO Detail
                             </td>
                             <td class="text-right" style="min-width: 100px;">315,000.00</td>
                             <td><button class="btn btn-sm btn-danger square" title="Hapus Detail"><i class="fas fa-times"></i></button></td>
-                        </tr> -->
+                        </tr>
                     </tbody>
                 </table>
             </div>
