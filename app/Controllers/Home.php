@@ -242,5 +242,12 @@ class Home extends BaseController
     {
         return view('bbk_ll_edit');
     }
+
+
+
+    public function bpak_edit(): string
+    {
+        return view('bpak_edit');
+    }
     
 }

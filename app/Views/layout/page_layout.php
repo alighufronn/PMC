@@ -614,6 +614,13 @@
             </a>
           </li>
 
+          <li class="nav-item">
+            <a href="<?= base_url('bpak-edit') ?>" class="nav-link">
+              <i class="nav-icon fas fa-circle"></i>
+              <p>BPAK (Edit)</p>
+            </a>
+          </li>
+
         </ul>
       </nav>
     </div>

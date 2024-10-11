@@ -88,3 +88,8 @@ $routes->get('/bbk-tambah', 'Home::bbk_tambah');
 $routes->get('/bbm-tambah', 'Home::bbm_tambah');
 $routes->get('/laporan-pemakaian-seng', 'Home::laporan_pemakaian_seng');
 
+
+
+$routes->get('/bpak-edit', 'Home::bpak_edit');
+
+
