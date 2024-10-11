@@ -71,8 +71,8 @@ Stock
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>120002004.01.000.000</td>
-                                                <td>3 WAY MOTORIZED VALVE NR24-SR Ø 32 MM BELIMO</td>
+                                                <td style="min-width: 80px;">120002004.01.000.000</td>
+                                                <td style="min-width: 100px;">3 WAY MOTORIZED VALVE NR24-SR Ø 32 MM BELIMO</td>
                                                 <td class="text-center">BUAH</td>
                                                 <td class="text-right">2</td>
                                                 <td class="text-right">2</td>
@@ -255,7 +255,10 @@ Stock
                     "previous": "‹",
                     "next":     "›",
                     "last":     ""
-                  }
+                  },
+                  "search": "",
+                  "searchPlaceholder": "Search",
+                  "lengthMenu": "Show _MENU_",
                 },
           "searching": true,
           "ordering": false,
@@ -264,7 +267,7 @@ Stock
           "autoWidth": true,
           "responsive": true,
           "scrollY": "500px",
-          "dom": '<"top"l><"top"f>rt<"bottom"p><"clear">',
+          "dom": '<"row"<"col-sm-5"l><"col-sm-7"f>>rt<"bottom"p><"clear">',
         });
         
         $(document).ready(function() {
@@ -277,7 +280,10 @@ Stock
                     "previous": "‹",
                     "next":     "›",
                     "last":     ""
-                  }
+                  },
+                  "search": "",
+                  "searchPlaceholder": "Search",
+                  "lengthMenu": "Show _MENU_",
                 },
                 "searching": true,
                 "ordering": false,
@@ -286,7 +292,7 @@ Stock
                 "autoWidth": true,
                 "responsive": true,
                 "scrollY": "500px",
-                "dom": '<"top"l><"top"f>rt<"bottom"p><"clear">'
+                "dom": '<"row"<"col-sm-5"l><"col-sm-7"f>>rt<"bottom"p><"clear">'
             });
 
             // Panggil columns.adjust() setelah inisialisasi tabel
@@ -322,7 +328,10 @@ Stock
                     "previous": "‹",
                     "next":     "›",
                     "last":     ""
-                  }
+                  },
+                  "search": "",
+                  "searchPlaceholder": "Search",
+                  "lengthMenu": "Show _MENU_",
                 },
                 "searching": true,
                 "ordering": false,
@@ -331,7 +340,7 @@ Stock
                 "autoWidth": true,
                 "responsive": true,
                 "scrollY": "250px",
-                "dom": '<"top"l><"top"f>rt<"bottom"p><"clear">'
+                "dom": '<"row"<"col-sm-5"l><"col-sm-7"f>>rt<"bottom"p><"clear">'
             });
 
             // Panggil columns.adjust() setelah inisialisasi tabel
