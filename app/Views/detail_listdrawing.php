@@ -26,7 +26,7 @@ Detail Drawing
                         <th class="text-center">Aksi</th>
                     </tr>
                 </thead>
-                <tbody>
+                <!-- <tbody>
                     <tr>
                         <td></td>
                         <td>11672157</td>
@@ -35,15 +35,7 @@ Detail Drawing
                             <button type="button" class="btn btn-warning btn-sm text-sm" title="Edit"><i class="fa fa-edit"></i></button>
                         </td>
                     </tr>
-                    <tr>
-                        <td></td>
-                        <td>11672157</td>
-                        <td>Lorem ipsum dolor sit amet.</td>
-                        <td class="text-center">
-                            <button type="button" class="btn btn-warning btn-sm text-sm" title="Edit"><i class="fa fa-edit"></i></button>
-                        </td>
-                    </tr>
-                </tbody>
+                </tbody> -->
     </table>
         </div>
     </div>
@@ -54,78 +46,123 @@ Detail Drawing
     <script>
         $(document).ready(function() {
             function format(d) {
-                // Buat konten untuk baris detail
-                return '<div class="bg-light">' +
-                    '<table class="w-100" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">' +
-                        '<tr>' +
-                            '<th>Gambar</th>' +
-                            '<th>Keterangan</th>' +
-                            '<th>Aksi</th>' +
-                        '</tr>' +
-                        '<tr>' +
-                            '<td>Gambar 1</td>' +
-                            '<td>Keterangan Gambar 1</td>' +
-                            '<td><button type="button" class="btn btn-xs text-sm btn-success">Move</button><button type="button" class="btn btn-xs text-sm btn-danger">Del</button></td>' +
-                        '</tr>' +
-                    '</table>' +
-                    '</div>';
-                }
-
-            var table = $('#detail-drawing').DataTable({
-                // "dom": '<"row"<"col-sm-6"l><"col-sm-6"f>>' + '<"row"<"col-sm-12"B>>' + 'rtip',
-                "lengthMenu": [20, 50, 100, 500],
-                "responsive": true,
-                "paging": true,
-                "pagingType": "full_numbers",
-                "language": {
-                  "paginate": {
-                    "first":    "",
-                    "previous": "‹",
-                    "next":     "›",
-                    "last":     ""
-                  }
-                },
-                "lengthChange": true,
-                "searching": true,
-                "ordering": true,
-                "info": true,
-                "scrollX": true,
-                "autoWidth": true,
-                "columns": [
-                  {
-                      "className": 'details-control',
-                      "orderable": false,
-                      "data": null,
-                      "defaultContent": ''
-                  },
-                  { "data": "gambar" },
-                  { "data": "keterangan" },
-                  { "data": "aksi" }
-                    
+                return (
+                    '<dl>' +
+                    '<dt>Full name:</dt>' +
+                    '<dd>' +
+                    d.name +
+                    '</dd>' +
+                    '<dt>Extension number:</dt>' +
+                    '<dd>' +
+                    d.extn +
+                    '</dd>' +
+                    '<dt>Extra info:</dt>' +
+                    '<dd>And any further details here (images etc)...</dd>' +
+                    '</dl>'
+                );
+            }
+            
+            let table = new DataTable('#detail-drawing', {
+                ajax: '../ajax/data/objects.txt',
+                columns: [
+                    {
+                        className: 'dt-control',
+                        orderable: false,
+                        data: null,
+                        defaultContent: ''
+                    },
+                    { data: 'gambar' },
+                    { data: 'keterangan' },
+                    { data: 'aksi' },
                 ],
-                "order": [[1, 'asc']],
-                "dom": '<"row"<"col-sm-6"l><"col-sm-6"f>>' + 'rtip',
+                order: [[1, 'asc']]
             });
-            table.buttons().container().appendTo('#printButton-material');
-
-
-            // Add event listener for opening and closing details
-            $('#detail-drawing tbody').on('click', 'tr', 'td.details-control', function() {
-              
-                var tr = $(this).closest('tr');
-                var row = table.row(tr);
-
+            
+            table.on('click', 'td.dt-control', function (e) {
+                let tr = e.target.closest('tr');
+                let row = table.row(tr);
+            
                 if (row.child.isShown()) {
-                    // This row is already open - close it
                     row.child.hide();
-                    tr.removeClass('shown');
-                } else {
-                    // Open this row
+                }
+                else {
                     row.child(format(row.data())).show();
-                    tr.addClass('shown');
                 }
             });
         });
+
+
+
+        // $(document).ready(function() {
+        //     function format(d) {
+        //         // Buat konten untuk baris detail
+        //         return '<div class="bg-light">' +
+        //             '<table class="w-100" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">' +
+        //                 '<tr>' +
+        //                     '<th>Gambar</th>' +
+        //                     '<th>Keterangan</th>' +
+        //                     '<th>Aksi</th>' +
+        //                 '</tr>' +
+        //                 '<tr>' +
+        //                     '<td>Gambar 1</td>' +
+        //                     '<td>Keterangan Gambar 1</td>' +
+        //                     '<td><button type="button" class="btn btn-xs text-sm btn-success">Move</button><button type="button" class="btn btn-xs text-sm btn-danger">Del</button></td>' +
+        //                 '</tr>' +
+        //             '</table>' +
+        //             '</div>';
+        //         }
+
+        //     var table = $('#detail-drawing').DataTable({
+        //         "lengthMenu": [20, 50, 100, 500],
+        //         "responsive": true,
+        //         "paging": true,
+        //         "pagingType": "full_numbers",
+        //         "language": {
+        //           "paginate": {
+        //             "first":    "",
+        //             "previous": "‹",
+        //             "next":     "›",
+        //             "last":     ""
+        //           }
+        //         },
+        //         "lengthChange": true,
+        //         "searching": true,
+        //         "ordering": true,
+        //         "info": true,
+        //         "scrollX": true,
+        //         "autoWidth": true,
+        //         "columns": [
+        //           {
+        //               "className": 'details-control',
+        //               "orderable": false,
+        //               "data": null,
+        //               "defaultContent": ''
+        //           },
+        //           { "data": "gambar" },
+        //           { "data": "keterangan" },
+        //           { "data": "aksi" }
+                    
+        //         ],
+        //         "order": [[1, 'asc']],
+        //         "dom": '<"row"<"col-sm-6"l><"col-sm-6"f>>' + 'rtip',
+        //     });
+        //     table.buttons().container().appendTo('#printButton-material');
+
+
+        //     $('#detail-drawing tbody').on('click', 'tr', 'td.details-control', function() {
+              
+        //         var tr = $(this).closest('tr');
+        //         var row = table.row(tr);
+
+        //         if (row.child.isShown()) {
+        //             row.child.hide();
+        //             tr.removeClass('shown');
+        //         } else {
+        //             row.child(format(row.data())).show();
+        //             tr.addClass('shown');
+        //         }
+        //     });
+        // });
     </script>
 
 

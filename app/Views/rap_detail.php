@@ -212,7 +212,7 @@ RAP Detail
                   <label class="custom-control-label" for="customSwitch3">Tampilkan / Sembunyikan RAP Qty 0</label>
                 </div>
             </div>
-            <table id="rap-detail" class="table text-sm table-bordered-row table-striped table-hover display nowrap" style="width: 100%">
+            <table id="rap-detail" class="table text-sm table-bordered-row table-striped table-hover display" style="width: 100%">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -233,7 +233,7 @@ RAP Detail
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>EAG + OBD + Sock 150 x 150 x Ø 100 mm  <br><span class="badge badge-primary mx-1">DIFFUSER</span><span class="badge badge-warning mx-1">kg</span></td>
+                        <td style="min-width: 150px;">EAG + OBD + Sock 150 x 150 x Ø 100 mm  <br><span class="badge badge-primary mx-1">DIFFUSER</span><span class="badge badge-warning mx-1">kg</span></td>
                         <td> M²</td>
                         <td class="text-center">330</td>
                         <td class="text-center">135</td>
@@ -244,7 +244,7 @@ RAP Detail
                         <td class="text-right">0</td>
                         <td class="text-right">0</td>
                         <td>
-                            <textarea name="" id="" rows="1" class="form-control form-control-sm text-xs"></textarea>
+                            <textarea name="" id="" rows="1" class="form-control form-control-sm text-sm" style="min-width: 125px;"></textarea>
                         </td>
                         <td class="text-right"><button type="button" class="btn btn-sm btn-danger"><i class="fas fa-times"></i></button></td>
                     </tr>

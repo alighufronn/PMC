@@ -19,15 +19,15 @@ EDIT BA INST
 <div class="card">
     <div class="card-body">
         <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-6">
+            
+                
+                    <div class="col-md-3 col-sm-6">
                         <div class="form-group">
                             <label for="" class="text-sm">Tanggal</label>
                             <input type="date" name="" id="" class="form-control form-control-sm text-sm">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-3 col-sm-6">
                         <div class="form-group">
                             <label for="" class="text-sm">GEDUNG</label>
                             <select name="" id="" class="form-control form-control-sm select text-sm">
@@ -35,7 +35,7 @@ EDIT BA INST
                             </select>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-3 col-sm-6">
                         <div class="form-group">
                             <label for="" class="text-sm">LANTAI</label>
                             <select name="" id="" class="form-control form-control-sm select text-sm">
@@ -43,7 +43,7 @@ EDIT BA INST
                             </select>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-3 col-sm-6">
                         <div class="form-group">
                             <label for="" class="text-sm">PEKERJAAN</label>
                             <select name="" id="" class="form-control form-control-sm select text-sm">
@@ -51,7 +51,7 @@ EDIT BA INST
                             </select>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-3 col-sm-6">
                         <div class="form-group">
                             <label for="" class="text-sm">UNIT/ZONA</label>
                             <select name="" id="" class="form-control form-control-sm select text-sm">
@@ -59,7 +59,7 @@ EDIT BA INST
                             </select>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-3 col-sm-6">
                         <div class="form-group">
                             <label for="" class="text-sm">TIPE BA</label>
                             <select name="" id="" class="form-control form-control-sm select text-sm">
@@ -67,14 +67,13 @@ EDIT BA INST
                             </select>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="" class="text-sm">Catatan/Keterangan</label>
-                    <textarea name="" id="" rows="5" class="form-control" placeholder="Catatan tentang Berita Acara"></textarea>
-                </div>
-            </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="" class="text-sm">Catatan/Keterangan</label>
+                            <textarea name="" id="" rows="3" class="form-control" placeholder="Catatan tentang Berita Acara"></textarea>
+                        </div>
+                    </div>
+            
         </div>
     </div>
     <div class="card-footer">
