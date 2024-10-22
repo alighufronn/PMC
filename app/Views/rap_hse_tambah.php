@@ -15,50 +15,46 @@ Tambah RAP
 <!-- Main Content -->
 <?= $this->section('content') ?>
 
-<div class="row">
-    <div class="col-md-3">
-        <div class="card">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-12 col-sm-4">
-                        <div class="form-group">
-                            <label for="" class="text-sm">Proyek</label>
-                            <select name="" id="" class="form-control select form-control-sm">
-                                <option value=""></option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-sm-4">
-                        <div class="form-group">
-                            <label for="" class="text-sm">Rev</label>
-                            <input type="text" name="" id="" class="form-control form-control-sm" value="" readonly>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-sm-4">
-                        <div class="form-group">
-                            <label for="" class="text-sm">Jumlah Pekerja (orang)</label>
-                            <input type="text" name="" id="" class="form-control form-control-sm" value="">
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-sm-6">
-                        <div class="form-group">
-                            <label for="" class="text-sm">Tanggal Mulai</label>
-                            <input type="date" name="" id="" class="form-control form-control-sm" value="">
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-sm-6">
-                        <div class="form-group">
-                            <label for="" class="text-sm">KETERANGAN</label>
-                            <textarea name="" id="" rows="3" class="form-control form-control-sm"></textarea>
-                        </div>
-                    </div>
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="" class="text-sm">Proyek</label>
+                    <select name="" id="" class="form-control select">
+                        <option value=""></option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-3 col-6">
+                <div class="form-group">
+                    <label for="" class="text-sm">Rev</label>
+                    <input type="text" name="" id="" class="form-control" value="" readonly>
+                </div>
+            </div>
+            <div class="col-sm-3 col-6">
+                <div class="form-group">
+                    <label for="" class="text-sm">Jumlah Pekerja (orang)</label>
+                    <input type="text" name="" id="" class="form-control" value="">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label for="" class="text-sm">Tanggal Mulai</label>
+                    <input type="date" name="" id="" class="form-control" value="">
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="form-group">
+                    <label for="" class="text-sm">KETERANGAN</label>
+                    <textarea name="" id="" rows="1" class="form-control"></textarea>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="col-md-9">
-        <div class="card">
+<div class="card">
             <div class="card-header bg-light">
                 <button type="submit" class="btn btn-primary mb-1"><i class="fas fa-save"></i> Simpan</button>
                 <button type="button" class="btn btn-success mb-1"><i class="fas fa-plus-circle"></i> Tambah Item</button>
@@ -99,8 +95,6 @@ Tambah RAP
                 </table>
             </div>
         </div>
-    </div>
-</div>
 
 
 <script>

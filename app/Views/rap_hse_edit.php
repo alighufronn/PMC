@@ -23,37 +23,37 @@ Edit RAP
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="" class="text-sm">Nomor</label>
-                            <input type="text" name="" id="" class="form-control form-control-sm" value="">
+                            <input type="text" name="" id="" class="form-control" value="">
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="" class="text-sm">Rev</label>
-                            <input type="text" name="" id="" class="form-control form-control-sm" value="">
+                            <input type="text" name="" id="" class="form-control" value="">
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="" class="text-sm">Proyek</label>
-                            <input type="text" name="" id="" class="form-control form-control-sm" value="">
+                            <input type="text" name="" id="" class="form-control" value="">
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="" class="text-sm">Jumlah Tenaga (orang)</label>
-                            <input type="text" name="" id="" class="form-control form-control-sm" value="">
+                            <input type="text" name="" id="" class="form-control" value="">
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="" class="text-sm">Tanggal Mulai</label>
-                            <input type="date" name="" id="" class="form-control form-control-sm" value="">
+                            <input type="date" name="" id="" class="form-control" value="">
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label for="" class="text-sm">KETERANGAN</label>
-                            <textarea name="" id="" rows="1" class="form-control form-control-sm"></textarea>
+                            <textarea name="" id="" rows="1" class="form-control"></textarea>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ Edit RAP
                             <th style="width: 33%;">Deskripsi Alat Kerja</th>
                             <th style="width: 10%;">Satuan</th>
                             <th class="text-center" style="width: 10%;">QTY</th>
-                            <th class="text-center" style="width: 10%;">BPA</th>
+                            <th class="text-center" style="width: 10%;">BPAs</th>
                             <th style="width: 30%;">Catatan</th>
                             <th class="text-center" style="width: 7%;">Aksi</th>
                         </tr>

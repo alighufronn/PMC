@@ -32,8 +32,6 @@
    <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css') ?>">
    <!-- Toastr -->
    <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/toastr/toastr.min.css') ?>">
-   <!-- Theme style -->
-   <!-- Multiselect style -->
    <!-- DataTables -->
     <script src="<?php echo('https://code.jquery.com/jquery-3.7.0.min.js')?>"></script> 
    <link rel="stylesheet" href="<?php echo('https://cdn.datatables.net/2.1.5/css/dataTables.jqueryui.min.css') ?>">
@@ -42,7 +40,9 @@
     <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/datatables-buttons/css/buttons.bootstrap4.min.css')?>">
     <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/datatables-fixedcolumns/css/fixedColumns.bootstrap4.css')?>">
     <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/datatables-fixedcolumns/css/fixedColumns.bootstrap4.min.css')?>">
-   <!-- Bootstrap -->
+   <link rel="stylesheet" href="<?= base_url('AdminLTE/plugins/datatables-select/css/select.bootstrap4.min.css') ?>">
+   
+    <!-- Bootstrap -->
    <script src="<?php echo('https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js')?>"></script>
   
   <style>                   
@@ -750,6 +750,9 @@
 <script src="<?= base_url('AdminLTE/plugins/datatables-fixedcolumns/js/dataTables.fixedColumns.min.js')?>"></script>
 <script src="<?= base_url('AdminLTE/plugins/datatables-fixedcolumns/js/fixedColumns.bootstrap4.js')?>"></script>
 <script src="<?= base_url('AdminLTE/plugins/datatables-fixedcolumns/js/fixedColumns.bootstrap4.min.js')?>"></script>
+<script src="<?= base_url('AdminLTE/plugins/datatables-select/js/dataTables.select.min.js') ?>"></script>
+<script src="<?= base_url('AdminLTE/plugins/datatables-select/js/select.bootstrap4.min.js') ?>"></script>
+
 <!-- Ellipsis -->
 <script src="<?php echo('https://cdn.datatables.net/plug-ins/2.1.7/dataRender/ellipsis.js') ?>"></script>
 <!-- overlayScrollbars -->

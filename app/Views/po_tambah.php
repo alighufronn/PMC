@@ -40,12 +40,128 @@ PO Tambah
     }
 </style>
 
+<div class="d-flex justify-content-center">
+    <div class="card" style="width: 80%;">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="" class="text-sm">#PO</label>
+                        <div class="input-group mb-3" style="width: 100%;">
+                            <input type="text" class="form-control text-sm" name="edNoPO" id="" value="XXXXXX" readonly>
+                            <div class="input-group-append">
+                              <button type="button" class="btn btn-primary" id="btn-cari-po" title="Cari PO" disabled><i class="fa fa-search text-sm"></i></button>
+                              <button type="button" class="btn btn-danger" id="btn-hapus-rev" title="Hapus PO" disabled><i class="fa fa-times text-sm"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="form-group">
+                        <label for="" class="text-sm">Tgl PO</label>
+                        <input type="date" class="form-control text-sm" name="" id="edtglPO" value="2024-10-10">
+                    </div>
+                </div>
+                <div class="col-md-4 col-6">
+                    <div class="form-group">
+                        <label for="" class="text-sm">Tgl Kirim</label>
+                        <input type="date" class="form-control text-sm" name="" id="edtglKirim" value="2024-10-17">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="" class="text-sm">Proyek</label>
+                        <select name="" id="pilihProyek" class="form-control select2" style="width: 100%;">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6">
+                    <div class="form-group">
+                        <label for="" class="text-sm">Dasar PO</label>
+                        <select name="" id="dasarPO" class="form-control select">
+                            <option value="0" selected>Non BPB</option>
+                            <option value="1">Dasar BPB</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-6">
+                    <div class="form-group">
+                        <label for="" class="text-sm">BPB</label>
+                        <select name="" id="pilihBPB" class="select2" multiple="multiple" data-placeholder="Pilih BPB" style="width: 100%;">
+                            <option>00001</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="form-group">
+                        <label for="" class="text-sm">Jenis PO</label>
+                        <select name="" id="pilihJenisPO" class="form-control select2" style="width: 100%;">
+                            <option value="">Alat Kerja</option>
+                            <option value="">HSE</option>
+                            <option value="">Material</option>
+                            <option value="">Equipment</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="form-group">
+                        <label for="" class="text-sm">Dimonitor Oleh</label>
+                        <select name="" id="pilihMonitoredBy" class="form-control select2" style="width: 100%;">
+                            <option value="">Pardomuan Siregar</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="" class="text-sm">Keterangan</label>
+                        <textarea name="" id="edKeterangan" rows="1" class="form-control" placeholder="Konten/isi PO"></textarea>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="" class="text-sm">Dikirim ke:</label>
+                        <select name="" id="pilihAlamatKirim" class="form-control select" onchange="changeAlamatKirim(this)">
+                            <option value=""></option>
+                        </select>
+                        <textarea name="" id="alamatKirim" rows="3" class="form-control text-sm mt-2" placeholder="Alamat kirim"></textarea>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="" class="text-sm">Supplier</label>
+                        <div class="btn-group" style="width: 100%;">
+                            <select name="" id="pilihSupplier" class="form-control select2" style="width: 100%;" onchange="changeSupplier(this)">
+                                <option value=""></option>
+                            </select>
+                            <button class="btn btn-primary" id="btn-edit-supplier" title="Edit Supplier"><i class="fas fa-pen"></i></button>
+                        </div>
+                        <textarea name="" id="alamatSupplier" rows="3" class="form-control text-sm mt-2" placeholder="Alamat Supplier"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<div class="card">
+
+<!-- <div class="card">
     <div class="card-body">
         <div class="row">
             <div class="col-md-4">
                 <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="" class="text-sm">Tgl PO</label>
+                            <input type="date" name="" id="" class="form-control text-sm" value="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="" class="text-sm">Tgl Kirim</label>
+                            <input type="date" name="" id="" class="form-control text-sm" value="">
+                        </div>
+                    </div>
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="" class="text-sm">Proyek</label>
@@ -75,20 +191,7 @@ PO Tambah
                                 <option>3</option>
                             </select>
                         </div>
-                        
-                    </div>
-                    <div class="col-6">
-                        <div class="form-group">
-                            <label for="" class="text-sm">Tgl PO</label>
-                            <input type="date" name="" id="" class="form-control text-sm" value="">
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="form-group">
-                            <label for="" class="text-sm">Tgl Kirim</label>
-                            <input type="date" name="" id="" class="form-control text-sm" value="">
-                        </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
 
@@ -143,11 +246,9 @@ PO Tambah
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-
-</div>
+</div> -->
 
 <!-- Table -->
 <div class="card">

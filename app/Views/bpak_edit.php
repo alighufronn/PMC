@@ -31,13 +31,13 @@ Edit BPAK
                             <input type="text" name="" id="" class="form-control" value="000006">
                         </div>
                     </div>
-                    <div class="col-md-12 col-sm-6">
+                    <div class="col-sm-6">
                         <div class="form-group">
                             <label for="" class="text-sm">Tanggal</label>
                             <input type="date" name="" id="" class="form-control" value="2024-10-08">
                         </div>
                     </div>
-                    <div class="col-md-12 col-sm-6">
+                    <div class="col-sm-6">
                         <div class="form-group">
                             <label for="" class="text-sm">MOS</label>
                             <input type="date" name="" id="" class="form-control" value="2024-10-22">

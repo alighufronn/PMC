@@ -1,15 +1,15 @@
 <?= $this->extend('layout/page_layout') ?>
 
 <?= $this->section('title') ?>
-BPAK
+BPAS
 <?= $this->endsection()?>
 
 <?= $this->section('page-title') ?>
-BON PERMINTAAN ALAT KERJA
+BON PERMINTAAN ALAT SAFETY
 <?= $this->endsection()?>
 
 <?= $this->section('page-breadcrumb') ?>
-Edit BPAK
+Edit BPAS
 <?= $this->endsection()?>
 
 <?= $this->section('content') ?>
@@ -31,13 +31,13 @@ Edit BPAK
                             <input type="text" name="" id="" class="form-control" value="" placeholder="Budget">
                         </div>
                     </div>
-                    <div class="col-md-12 col-sm-6">
+                    <div class="col-sm-6">
                         <div class="form-group">
                             <label for="" class="text-sm">Tanggal</label>
                             <input type="date" name="" id="" class="form-control" value="2023-02-08">
                         </div>
                     </div>
-                    <div class="col-md-12 col-sm-6">
+                    <div class="col-sm-6">
                         <div class="form-group">
                             <label for="" class="text-sm">MOS</label>
                             <input type="date" name="" id="" class="form-control" value="2023-02-27">
